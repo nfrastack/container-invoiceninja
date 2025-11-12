@@ -33,10 +33,10 @@ services:
     restart: always
 
   invoiceninja-db:
-    image: docker.io/tiredofit/mariadb:10.11
+    image: docker.io/nfrastack/mariadb:11.8
     container_name: invoiceninja-db
     volumes:
-      - ./db:/var/lib/mysql
+      - ./db:/data
     environment:
       - TIMEZONE=America/Vancouver
 
