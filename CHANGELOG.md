@@ -2,7 +2,7 @@
 
    ### Changed
       - Change base to nfrastack/nginx-php-fpm
-      - Invoice Ninja 5.12.34
+      - Invoice Ninja 5.12.35
       - Invoice Ninja UI 07.10.2025.1
 
 ## 1.1.99 2025-10-06 <dave at tiredofit dot ca>
