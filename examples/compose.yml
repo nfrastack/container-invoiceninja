@@ -1,10 +1,8 @@
 services:
-  
+
   invoiceninja-app:
     image: docker.io/nfrastack/invoiceninja
     container_name: invoiceninja-app
-    links:
-      - invoiceninja-db
     volumes:
       ### If you want to perform customizations to the source and have access to it, then uncomment this line - This includes modules
       #- ./data:/www/html
@@ -52,8 +50,6 @@ services:
   invoiceninja-db-backup:
     container_name: invoiceninja-db-backup
     image: docker.io/tiredofit/db-backup:latest
-    links:
-     - invoiceninja-db
     volumes:
       - ./dbbackup:/backup
     environment:
