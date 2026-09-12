@@ -49,7 +49,7 @@ services:
 
   invoiceninja-db-backup:
     container_name: invoiceninja-db-backup
-    image: docker.io/tiredofit/db-backup:latest
+    image: docker.io/nfrastack/db-backup:latest
     volumes:
       - ./dbbackup:/backup
     environment:

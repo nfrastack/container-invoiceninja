@@ -1,9 +1,9 @@
-## 1.2.0pre 2025-10-06 <code at nfrastack dot com>
+## 1.2.0pre 2026-09-11 <code at nfrastack dot com>
 
    ### Changed
       - Change base to nfrastack/nginx-php-fpm
-      - Invoice Ninja 5.12.41
-      - Invoice Ninja UI 26.12.2025.1
+      - Invoice Ninja 5.13.38
+      - Invoice Ninja UI 07.09.2026.1
 
 ## 1.1.99 2025-10-06 <dave at tiredofit dot ca>
 

@@ -18,8 +18,8 @@ LABEL \
         org.opencontainers.image.licenses="MIT"
 
 ARG \
-    INVOICENINJA_VERSION="v5.13.7" \
-    INVOICENINJA_REACT_VERSION="09.03.2026.1" \
+    INVOICENINJA_VERSION="v5.13.38" \
+    INVOICENINJA_REACT_VERSION="07.09.2026.1" \
     INVOICENINJA_REPO_URL=https://github.com/invoiceninja/invoiceninja \
     INVOICENINJA_REACT_REPO_URL=https://github.com/invoiceninja/ui
 
